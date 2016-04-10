@@ -1,25 +1,140 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gjz-JC-mtj">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--NGÀY CỦA MẸ-->
+        <scene sceneID="DzY-Sj-CyO">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="Mdj-V1-fPW" customClass="MDViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="t1o-Gq-C6m"/>
+                        <viewControllerLayoutGuide type="bottom" id="zWP-hX-2rc"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="msb-zo-9Q1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o7t-pD-WAi">
+                                <rect key="frame" x="0.0" y="64" width="600" height="252"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="252" id="yU6-dS-6oo"/>
+                                </constraints>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Xin vui lòng chọn một năm bất kỳ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o6F-fq-CIr">
+                                <rect key="frame" x="0.0" y="78" width="600" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="7NP-KC-kI5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright 2016 by H.T.K Corp." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5dm-lE-Ttm">
+                                <rect key="frame" x="0.0" y="559" width="600" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="42" id="K5y-kw-ZVy"/>
+                                    <constraint firstAttribute="height" constant="42" id="bhr-um-bvp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHÚC MỪNG NGÀY CỦA MẸ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="olg-8h-Ofh">
+                                <rect key="frame" x="0.0" y="300" width="600" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="fg2-eW-XSS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HoeflerText-Italic" family="Hoefler Text" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHÚC MỪNG NGÀY CỦA BA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQX-Nu-Ynj">
+                                <rect key="frame" x="0.0" y="364" width="600" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="GYO-R9-GJC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Huỳnh Văn Kỳ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yOW-1J-Df4">
+                                <rect key="frame" x="0.0" y="393" width="600" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="fD2-2w-jR5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nguyễn Thị Chiêu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYT-b5-5cI">
+                                <rect key="frame" x="0.0" y="329" width="600" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="gJi-aQ-ei8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="olg-8h-Ofh" firstAttribute="leading" secondItem="msb-zo-9Q1" secondAttribute="leadingMargin" constant="-20" id="08A-MI-l2v"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fQX-Nu-Ynj" secondAttribute="trailing" constant="-20" id="11X-Sy-ZkQ"/>
+                            <constraint firstItem="fQX-Nu-Ynj" firstAttribute="top" secondItem="EYT-b5-5cI" secondAttribute="bottom" constant="4" id="17P-E6-9eI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5dm-lE-Ttm" secondAttribute="trailing" constant="-20" id="1c5-S3-qA7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yOW-1J-Df4" secondAttribute="trailing" constant="-20" id="4Ic-FA-tIX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5dm-lE-Ttm" secondAttribute="trailing" constant="-20" id="5Uz-Rs-xPP"/>
+                            <constraint firstItem="EYT-b5-5cI" firstAttribute="top" secondItem="olg-8h-Ofh" secondAttribute="bottom" constant="-10" id="66t-7m-QP1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="o6F-fq-CIr" secondAttribute="trailing" constant="-20" id="7pP-mn-OJi"/>
+                            <constraint firstItem="o7t-pD-WAi" firstAttribute="top" secondItem="t1o-Gq-C6m" secondAttribute="bottom" id="92g-gw-vRt"/>
+                            <constraint firstItem="yOW-1J-Df4" firstAttribute="top" secondItem="fQX-Nu-Ynj" secondAttribute="bottom" constant="-10" id="Apv-FD-3C1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="o7t-pD-WAi" secondAttribute="trailing" constant="-20" id="Exq-Ms-CtO"/>
+                            <constraint firstItem="olg-8h-Ofh" firstAttribute="top" secondItem="o7t-pD-WAi" secondAttribute="bottom" constant="-16" id="Hzy-bq-Ady"/>
+                            <constraint firstItem="o6F-fq-CIr" firstAttribute="leading" secondItem="msb-zo-9Q1" secondAttribute="leadingMargin" constant="-20" id="Kvb-mB-o2V"/>
+                            <constraint firstItem="5dm-lE-Ttm" firstAttribute="leading" secondItem="msb-zo-9Q1" secondAttribute="leadingMargin" constant="-20" id="Mfv-IO-E3l"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="5dm-lE-Ttm" secondAttribute="bottom" constant="-1" id="NeZ-7e-2qX"/>
+                            <constraint firstItem="yOW-1J-Df4" firstAttribute="leading" secondItem="msb-zo-9Q1" secondAttribute="leadingMargin" constant="-20" id="VJF-AE-tYs"/>
+                            <constraint firstItem="fQX-Nu-Ynj" firstAttribute="leading" secondItem="msb-zo-9Q1" secondAttribute="leadingMargin" constant="-20" id="XVR-5i-sG0"/>
+                            <constraint firstItem="5dm-lE-Ttm" firstAttribute="leading" secondItem="msb-zo-9Q1" secondAttribute="leadingMargin" constant="-20" id="lla-Ly-UXf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="olg-8h-Ofh" secondAttribute="trailing" constant="-20" id="rzo-tg-QaL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EYT-b5-5cI" secondAttribute="trailing" constant="-20" id="tbV-nQ-MqP"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="5dm-lE-Ttm" secondAttribute="bottom" constant="-1" id="twl-Xt-tkg"/>
+                            <constraint firstItem="o7t-pD-WAi" firstAttribute="leading" secondItem="msb-zo-9Q1" secondAttribute="leadingMargin" constant="-20" id="u5B-gC-NwX"/>
+                            <constraint firstItem="EYT-b5-5cI" firstAttribute="leading" secondItem="msb-zo-9Q1" secondAttribute="leadingMargin" constant="-20" id="xAs-NK-P0a"/>
+                            <constraint firstItem="o6F-fq-CIr" firstAttribute="top" secondItem="t1o-Gq-C6m" secondAttribute="bottom" constant="14" id="xJL-qU-3H8"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="NGÀY CỦA MẸ" id="RMc-a4-zXT"/>
+                    <connections>
+                        <outlet property="lblResultDad" destination="yOW-1J-Df4" id="JGi-Cc-WAD"/>
+                        <outlet property="lblResultMom" destination="EYT-b5-5cI" id="6kV-TT-dfY"/>
+                        <outlet property="pickerView" destination="o7t-pD-WAi" id="vbr-Ps-dHj"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fBR-bP-Udn" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1006" y="306"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="n4s-Zn-FvJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gjz-JC-mtj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SdH-3P-cK5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Mdj-V1-fPW" kind="relationship" relationship="rootViewController" id="Mcl-jl-2EA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xSP-nn-5E5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="194" y="306"/>
         </scene>
     </scenes>
 </document>
