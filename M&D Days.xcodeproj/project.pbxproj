@@ -8,8 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2E8035671CBEAD4000ADA4CA /* ICETutorialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8035621CBEAD4000ADA4CA /* ICETutorialController.m */; };
-		2E8035681CBEAD4000ADA4CA /* ICETutorialPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8035641CBEAD4000ADA4CA /* ICETutorialPage.m */; };
 		2E8035691CBEAD4000ADA4CA /* ICETutorialStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8035661CBEAD4000ADA4CA /* ICETutorialStyle.m */; };
+		2E8035741CBEBBD000ADA4CA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E8035731CBEBBD000ADA4CA /* QuartzCore.framework */; };
+		2E8035921CBEC5BF00ADA4CA /* background-gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E80358A1CBEC5BF00ADA4CA /* background-gradient.png */; };
+		2E8035931CBEC5BF00ADA4CA /* background-gradient@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E80358B1CBEC5BF00ADA4CA /* background-gradient@2x.png */; };
+		2E8035941CBEC5BF00ADA4CA /* button-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E80358C1CBEC5BF00ADA4CA /* button-background.png */; };
+		2E8035951CBEC5BF00ADA4CA /* button-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E80358D1CBEC5BF00ADA4CA /* button-background@2x.png */; };
+		2E8035961CBEC5BF00ADA4CA /* dragon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E80358E1CBEC5BF00ADA4CA /* dragon.png */; };
+		2E8035971CBEC5BF00ADA4CA /* dragon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E80358F1CBEC5BF00ADA4CA /* dragon1.png */; };
+		2E8035981CBEC5BF00ADA4CA /* dragon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E8035901CBEC5BF00ADA4CA /* dragon2.png */; };
+		2E8035991CBEC5BF00ADA4CA /* dragon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E8035911CBEC5BF00ADA4CA /* dragon3.png */; };
 		2E84DB251CB9769C00E7244D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E84DB241CB9769C00E7244D /* main.m */; };
 		2E84DB281CB9769C00E7244D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E84DB271CB9769C00E7244D /* AppDelegate.m */; };
 		2E84DB2B1CB9769C00E7244D /* MDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E84DB2A1CB9769C00E7244D /* MDViewController.m */; };
@@ -45,6 +53,15 @@
 		2E8035641CBEAD4000ADA4CA /* ICETutorialPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICETutorialPage.m; sourceTree = "<group>"; };
 		2E8035651CBEAD4000ADA4CA /* ICETutorialStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICETutorialStyle.h; sourceTree = "<group>"; };
 		2E8035661CBEAD4000ADA4CA /* ICETutorialStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICETutorialStyle.m; sourceTree = "<group>"; };
+		2E8035731CBEBBD000ADA4CA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2E80358A1CBEC5BF00ADA4CA /* background-gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-gradient.png"; sourceTree = "<group>"; };
+		2E80358B1CBEC5BF00ADA4CA /* background-gradient@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-gradient@2x.png"; sourceTree = "<group>"; };
+		2E80358C1CBEC5BF00ADA4CA /* button-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-background.png"; sourceTree = "<group>"; };
+		2E80358D1CBEC5BF00ADA4CA /* button-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-background@2x.png"; sourceTree = "<group>"; };
+		2E80358E1CBEC5BF00ADA4CA /* dragon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragon.png; sourceTree = "<group>"; };
+		2E80358F1CBEC5BF00ADA4CA /* dragon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragon1.png; sourceTree = "<group>"; };
+		2E8035901CBEC5BF00ADA4CA /* dragon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragon2.png; sourceTree = "<group>"; };
+		2E8035911CBEC5BF00ADA4CA /* dragon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragon3.png; sourceTree = "<group>"; };
 		2E84DB201CB9769C00E7244D /* M&D Days.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M&D Days.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E84DB241CB9769C00E7244D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E84DB261CB9769C00E7244D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E8035741CBEBBD000ADA4CA /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,9 +120,25 @@
 			path = library;
 			sourceTree = "<group>";
 		};
+		2E8035891CBEC5BF00ADA4CA /* image */ = {
+			isa = PBXGroup;
+			children = (
+				2E80358A1CBEC5BF00ADA4CA /* background-gradient.png */,
+				2E80358B1CBEC5BF00ADA4CA /* background-gradient@2x.png */,
+				2E80358C1CBEC5BF00ADA4CA /* button-background.png */,
+				2E80358D1CBEC5BF00ADA4CA /* button-background@2x.png */,
+				2E80358E1CBEC5BF00ADA4CA /* dragon.png */,
+				2E80358F1CBEC5BF00ADA4CA /* dragon1.png */,
+				2E8035901CBEC5BF00ADA4CA /* dragon2.png */,
+				2E8035911CBEC5BF00ADA4CA /* dragon3.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		2E84DB171CB9769C00E7244D = {
 			isa = PBXGroup;
 			children = (
+				2E8035731CBEBBD000ADA4CA /* QuartzCore.framework */,
 				2E84DB221CB9769C00E7244D /* App2 */,
 				2E84DB3C1CB9769C00E7244D /* App2Tests */,
 				2E84DB471CB9769C00E7244D /* App2UITests */,
@@ -125,6 +159,7 @@
 		2E84DB221CB9769C00E7244D /* App2 */ = {
 			isa = PBXGroup;
 			children = (
+				2E8035891CBEC5BF00ADA4CA /* image */,
 				2E8035601CBEAD4000ADA4CA /* library */,
 				2EC9B2511CBA091B00FC4514 /* mp3 */,
 				2E84DB261CB9769C00E7244D /* AppDelegate.h */,
@@ -280,10 +315,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E8035991CBEC5BF00ADA4CA /* dragon3.png in Resources */,
+				2E8035971CBEC5BF00ADA4CA /* dragon1.png in Resources */,
+				2E8035941CBEC5BF00ADA4CA /* button-background.png in Resources */,
 				2E84DB331CB9769C00E7244D /* LaunchScreen.storyboard in Resources */,
 				2EC9B2531CBA092C00FC4514 /* DaoLamCon.mp3 in Resources */,
 				2E84DB301CB9769C00E7244D /* Assets.xcassets in Resources */,
 				2E84DB2E1CB9769C00E7244D /* Main.storyboard in Resources */,
+				2E8035961CBEC5BF00ADA4CA /* dragon.png in Resources */,
+				2E8035931CBEC5BF00ADA4CA /* background-gradient@2x.png in Resources */,
+				2E8035981CBEC5BF00ADA4CA /* dragon2.png in Resources */,
+				2E8035951CBEC5BF00ADA4CA /* button-background@2x.png in Resources */,
+				2E8035921CBEC5BF00ADA4CA /* background-gradient.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +354,6 @@
 				2E84DB2B1CB9769C00E7244D /* MDViewController.m in Sources */,
 				2E8035691CBEAD4000ADA4CA /* ICETutorialStyle.m in Sources */,
 				2E84DB281CB9769C00E7244D /* AppDelegate.m in Sources */,
-				2E8035681CBEAD4000ADA4CA /* ICETutorialPage.m in Sources */,
 				2E84DB251CB9769C00E7244D /* main.m in Sources */,
 				2E8035671CBEAD4000ADA4CA /* ICETutorialController.m in Sources */,
 			);

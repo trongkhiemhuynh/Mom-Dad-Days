@@ -124,6 +124,8 @@
     [self.frontLayerView setAutoresizingMask:UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight];
 	[self.backLayerView setAutoresizingMask:UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight];
     
+    //UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight | 
+    
     NSDictionary *views = NSDictionaryOfVariableBindings(_overlayTitle, _leftButton, _rightButton, _pageControl, _gradientView);
     NSMutableArray *constraints = [NSMutableArray array];
     
@@ -266,7 +268,7 @@
 // Setup the Title Label.
 - (void)setOverlayTitle {
     // ...or change by an UIImageView if you need it.
-    [self.overlayTitle setText:@"Welcome"];
+//    [self.overlayTitle setText:@"Welcome"];
 }
 
 // Setup the Title/Subtitle style/text.

@@ -33,7 +33,7 @@
     // set title navigation
     self.title = @"NGÀY CỦA MẸ & BA";
     self.navigationController.navigationBar.titleTextAttributes = @{
-                                                                    NSFontAttributeName:[UIFont fontWithName:@"HelveticaNeue-Bold" size:25],
+                                                                    NSFontAttributeName:[UIFont fontWithName:@"IowanOldStyle-Bold" size:20],
                                                                     NSForegroundColorAttributeName: [UIColor blackColor]
                                                                     };
     [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background"]]];
